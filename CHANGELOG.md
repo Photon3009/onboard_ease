@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.1 - 29/01/2024
 
-* TODO: Describe initial release.
+- Released first project

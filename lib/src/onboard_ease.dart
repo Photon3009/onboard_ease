@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class CustomOnboardingScreen extends StatefulWidget {
+class OnboardEase extends StatefulWidget {
   final List<Widget> pages;
   final BoxDecoration? indicatorDecoration;
   final BuildContext context;
-  const CustomOnboardingScreen(
+  const OnboardEase(
       {super.key,
       required this.pages,
       this.indicatorDecoration,
       required this.context});
 
   @override
-  State<CustomOnboardingScreen> createState() => _CustomOnboardingScreenState();
+  State<OnboardEase> createState() => _CustomOnboardingScreenState();
 }
 
-class _CustomOnboardingScreenState extends State<CustomOnboardingScreen> {
+class _CustomOnboardingScreenState extends State<OnboardEase> {
   final PageController _pageController = PageController();
   int _currentPage = 0;
 
